@@ -1,0 +1,580 @@
+html{
+    font-size: 62.5%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-one{
+    position: relative;
+    height: 60rem;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+
+.a{
+    position:absolute;
+    height: 6rem;
+    width: 90%;
+    background-color: rgb(64, 196, 64);
+    top:2rem;
+    left: 5%;
+}
+
+.a ul{
+    list-style: none;
+    position: absolute;
+    top:.2rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.a ul li{
+    padding: 2rem;
+    float: left;
+    transition: 2s;
+}
+
+.a ul li:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+.b ul{
+    list-style: none;
+    position: absolute;
+    top:2.2rem;
+    font-size: 1.5rem;
+    left:87rem;
+}
+.b ul li{
+    padding: 2rem;
+    float: left;
+    transition: 2s;
+}
+
+.b ul li:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+.c{
+    position: absolute;
+    height: 8rem;
+    width: 10rem;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: moveInTop 2s ease-out;
+}
+
+
+@keyframes moveInTop{
+    0%{
+        top:0%;
+        color: lightgreen;
+    }
+    100%{
+        top:15%;
+        color: green;
+    }
+}
+
+.c1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 6rem;
+    color: white; 
+    transition: 1s;
+    animation: moveInLeft 2s ease-out;
+}
+
+@keyframes moveInLeft{
+    0%{
+        left:0;
+        color: lightgreen;
+    }
+    100%{
+        left:50%;
+        color: green;
+    }
+}
+
+.c1:hover{
+    color:red;
+    transform: scale(1.1);
+} 
+
+.c2{
+    position: absolute;
+    top:60%;
+    left: 38%;
+    color: white;
+    transition: 1s;
+    font-size: 2rem;
+}
+
+.c2:hover{
+    color:red;
+}
+
+.c3{
+    position: absolute;
+    height: 4rem;
+    width: 15rem;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+    color: white;
+}
+
+.c3:hover{
+    background-color: green;
+    
+}
+
+.main-two{
+    position: relative;
+    height: 60rem;
+    width: 100%;
+    background-color: white;
+}
+
+.d{
+    position: absolute;
+    height: 30rem;
+    width: 25rem;
+    background-color: rgb(75, 201, 75);
+    left: 11rem;
+    top:35%;
+    
+}
+
+.d1{
+    position: absolute;
+    height: 39rem;
+    width: 33rem;
+    background-color: lightgray;
+    top:15%;
+    left: 14rem;
+}
+
+.d2{
+    position:absolute;
+    height: 36rem;
+    width: 29rem;
+    top:10.5rem;
+    left: 16rem;
+    transition: 2s;
+    animation: moveInRight 4s ease-out;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+}
+
+
+@keyframes moveInRight{
+    0%{
+        left:70%;
+    }
+    100%{
+        left:16rem;  
+    }
+}
+
+
+
+
+.d2:hover{
+    transform:scale(1.1)
+}
+
+.d3{
+    position: absolute;
+    left: 50%;
+    font-size: 2rem;
+    top:8rem;
+    color: green;
+}
+
+.d4{
+    position: absolute;
+    left: 50%;
+    top:13rem;
+    font-size: 4rem;
+    transition: 1s;
+}
+
+.d4:hover{
+    color: lightgreen;
+}
+
+.d5{
+    position: absolute;
+    left: 50%;
+    top:20rem;
+    font-size: 1.5rem;
+    color:gray
+}
+
+.d6{
+    position: absolute;
+    height: 4rem;
+    width: 15rem;
+    background-color:blue;
+    border-radius: 2rem;
+    top:70%;
+    left: 56%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+    color: white;
+}
+
+.d6:hover{
+    background-color: green;
+    
+}
+
+.main-three{
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    
+}
+
+.e{
+    position: absolute;
+    height: 20rem;
+    width: 25%;
+    background-color: white;
+    top:30%;
+    left: 8%;
+}
+
+.e h2{
+    position: absolute;
+    top:.5;
+    left: 1.5rem;
+    color: green;
+    font-size: 4rem;
+}
+
+.e h1{
+    position: absolute;
+    top:5rem;
+    left: 1.5rem;
+    font-size: 2rem;
+}
+
+.e p{
+    position: absolute;
+    top:10rem;
+    font-size: 1.5rem;
+    left: 1.5rem;
+}
+
+
+
+.e1{
+    position: absolute;
+    height: 20rem;
+    width: 25%;
+    background-color: white;
+    top:30%;
+    left: 36.5%;
+}
+
+.e1 h2{
+    position: absolute;
+    top:.5rem;
+    left: 1.5rem;
+    color: aqua;
+    font-size: 4rem;
+}
+
+.e1 h1{
+    position: absolute;
+    top:5rem;
+    left: 1.5rem;
+    font-size: 2rem;
+}
+
+.e1 p{
+    position: absolute;
+    top:10rem;
+    left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+
+.e2{
+    position: absolute;
+    height: 20rem;
+    width: 25%;
+    background-color: white;
+    top:30%;
+    left: 65%;
+}
+
+.e2 h2{
+    position: absolute;
+    top:.5rem;
+    left: 1.5rem;
+    color: green;
+    font-size: 4rem;
+}
+
+.e2 h1{
+    position: absolute;
+    top:5rem;
+    left: 1.5rem;
+    font-size: 2rem;
+}
+
+.e2 p{
+    position: absolute;
+    top:10rem;
+    left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.main-four{
+    position: relative;
+    height: 108rem;
+    background-color: lightgrey;
+    width: 100%;
+    top:4rem;
+}
+
+.e3{
+    position: relative;
+    height: 40rem;
+    width: 40rem;
+    border: 1rem solid white;
+    top:-4rem;
+    left: 12rem;
+    transition: 1s;
+}
+
+.e3:hover{
+    transform: scale(1.1);
+}
+
+
+
+.e4{
+    position: absolute;
+    height: 40rem;
+    width: 40rem;
+    border: 1rem solid white;
+    top:42rem;
+    left: 12rem;
+    transition: 1s;
+}
+
+.e4:hover{
+    transform: scale(1.1);
+}
+
+.main-four h1{
+    position: absolute;
+    top:86rem;
+    left:12rem;
+    font-size: 4rem;
+}
+
+.main-four p{
+    position: absolute;
+    top:92rem;
+    left: 12rem;
+    font-size: 1.5rem;
+}
+
+
+
+.e5{
+    position: absolute;
+    height: 4rem;
+    width: 20rem;
+    background-color:blue;
+    border-radius: 2rem;
+    top:92%;
+    font-size: 2rem;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+    color: white;
+}
+
+.e5:hover{
+    background-color: green;
+    
+}
+
+.e6{
+    position: absolute;
+    top:4rem;
+    left:60%;
+    font-size: 2rem;
+}
+
+
+.e7{
+    position: absolute;
+    top:8rem;
+    left:50%;
+    font-size: 6rem;
+    transition: 1s;
+    }
+
+    .e7:hover{
+        color: green;
+    }
+
+    .e8{
+        position: absolute;
+        top:17rem;
+        left:50%;
+        font-size: 1.5rem;
+    }
+
+
+    
+.e9{
+    position: absolute;
+    height: 40rem;
+    width: 40rem;
+    border: 1rem solid white;
+    top:27rem;
+    left: 51%;
+    transition: 1s;
+}
+
+.e9:hover{
+    transform: scale(1.1);
+}
+
+.e10{
+    position: absolute;
+    height: 30rem;
+    width: 40rem;
+    border: 1rem solid white;
+    top:73rem;
+    left: 51%;
+    transition: 1s;
+}
+
+.e10:hover{
+    transform: scale(1.1);
+}
+
+.main-five{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    height: 60rem;
+}
+
+.main-five h2{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    color: blue;
+    transform: translate(-50%,-50%);
+}
+
+.main-five h1{
+    position: absolute;
+    top:29%;
+    left: 50%;
+    font-size: 5rem;
+    transform: translate(-50%,-50%);
+}
+
+.main-five p{
+    position: absolute;
+    top:36%;
+    left: 22%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.f h1{
+    position: absolute;
+    top:67%;
+    left: 20%;
+    color: greenyellow;
+}
+
+.f1 h3{
+    position: absolute;
+    top:72%;
+    left: 14%;
+    font-size: 2rem;
+}
+
+.f2 h1{
+    position: absolute;
+    top:67%;
+    left: 50%;
+    color: aqua;
+}
+
+.f3 h3{
+    position: absolute;
+    top:72%;
+    left: 47%;
+    
+}
+
+.f4 h1{
+    position: absolute;
+    top:67%;
+    left: 80%;
+    color: greenyellow;
+}
+
+.f5 h3{
+    position: absolute;
+    top:72%;
+    left: 75%;
+    
+}
+
+.main-six{
+    position: relative;
+    height: 60rem;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.main-six h2{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: blue;
+}
+
+.main-six h1{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    font-size: 4rem;
+}
+
+.main-six p{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    
+}
